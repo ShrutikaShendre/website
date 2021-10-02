@@ -1,0 +1,92 @@
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #B8DFD8;
+}
+.box1{
+    height: 554px;
+    width: 800px;
+    background-color: white;
+    border-radius: 3px;
+    margin:100px auto;
+    box-shadow: 10px 20px 35px 0px black;
+}
+.box11{
+    display: inline-block;
+    height: 553px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    border-right:  dashed;
+}
+.box12{
+    display: inline-block;
+    height: 470px;
+    width: 394px;
+    background-color: white;
+    position: relative;
+    
+    border-radius: 3px;
+}
+
+.img{
+    position: relative;
+    text-align: center;
+    top: 84px;
+    /* border-radius: 50%; */
+}
+.name{
+    padding: 70px;
+    text-align: center;
+   
+}
+#l1{
+    font-size: 30px;
+    color: rgba(248, 64, 51, 0.986);
+}
+#l2{
+    font-size: 28px;
+}
+.info{
+    /* padding: 79px; */
+    font-size: 23px;
+    text-align: center;
+}
+.icon
+{
+    padding: 61px
+}
+.box4, .box5, .box6
+{
+   font-size: 17px;
+    /* color:#FF2626; */
+    display: inline-block;
+    padding: 25px;
+}
+
+/* a:link{
+
+    color:green;
+} */
+/* i{
+    color:green; 
+}
+a:active{
+    color: yellow;
+}
+a:hover{
+    color: aqua;
+} */
+input[type=text],input[type=number]
+{
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[type=submit]
+{
+    background-color: cornflowerblue;
+    color: black;
+    width: 150px;
+    height: 36px;
+    border-radius: 5px;
+}
